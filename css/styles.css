@@ -114,14 +114,19 @@ h1{
 
 .section-container{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .section-content img{
     width: 100%
 }
 
+.section-content{
+    width: 50%;
+}
+
 .section-content-two{
-    justify-content: center;
+    width: 30%;
 }
 
 .section-content-two p {
@@ -133,8 +138,5 @@ h1{
     color: grey;
 }
 
-.section-content, .section-content-two{
-    flex-direction: column;
-}
 
 
